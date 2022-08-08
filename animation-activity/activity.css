@@ -28,8 +28,11 @@ nav {
 }
 
 @keyframes top {
-  from { transform:rotate(0deg);}
-  to { transform:rotate(45deg); position:relative; top:32px; animation-delay: 3s;}
+ 0% { transform:rotate(0deg);}
+ 25% { transform:rotate(10deg); position:relative; top:10px;}
+ 50% { transform:rotate(20deg); position:realtive; top:15px;}
+ 75% { transform:rotate(30deg); position:relative; top:25px;}
+100% { transform:rotate(45deg); position:relative; top:32px;}
 }
 
 @keyframes middle {
@@ -38,6 +41,13 @@ nav {
 }
 
 @keyframes bottom {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(-45deg); position:relative; bottom:35px;}
+  0% { transform:rotate(0deg);}
+  25% { transform:rotate(-10deg); position:relative; bottom:10px;}
+  35% { transform:rotate(-15deg); position:relative; bottom:13px;}
+  45% { transform:rotate(-20deg); position:relative; bottom:15px;}
+  55% { transform:rotate(-25deg); position:relative; bottom:20px;}
+  75% { transform:rotate(-30deg); position:relative; bottom:25px;}
+ 100% { transform:rotate(-45deg); position:relative; bottom:35px;}
+
+
 }
