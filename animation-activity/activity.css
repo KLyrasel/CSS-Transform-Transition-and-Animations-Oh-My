@@ -30,7 +30,7 @@ nav {
 @keyframes top {
  0% { transform:rotate(0deg);}
  25% { transform:rotate(10deg); position:relative; top:10px;}
- 50% { transform:rotate(20deg); position:realtive; top:15px;}
+ 50% { transform:rotate(20deg); position:relative; top:15px;}
  75% { transform:rotate(30deg); position:relative; top:25px;}
 100% { transform:rotate(45deg); position:relative; top:32px;}
 }
