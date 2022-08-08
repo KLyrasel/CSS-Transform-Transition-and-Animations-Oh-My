@@ -46,7 +46,9 @@ nav {
   35% { transform:rotate(-15deg); position:relative; bottom:13px;}
   45% { transform:rotate(-20deg); position:relative; bottom:15px;}
   55% { transform:rotate(-25deg); position:relative; bottom:20px;}
-  75% { transform:rotate(-30deg); position:relative; bottom:25px;}
+  65% { transform:rotate(-30deg); position:relative; bottom:23px;}
+  75% { transform:rotate(-35deg); position:relative; bottom:25px;}
+  85% {transfom:rotate(-40deg); position:relative; bottom:30px;}
  100% { transform:rotate(-45deg); position:relative; bottom:35px;}
 
 
